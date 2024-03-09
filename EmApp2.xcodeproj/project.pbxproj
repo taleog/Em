@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D3E9DD080350CA0943F7AA3 /* Pods_EmApp2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E2093CDD4CB3C43CC2C15C /* Pods_EmApp2.framework */; };
 		DD15D1B82B9BC0A5007E04C1 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15D1B72B9BC0A5007E04C1 /* ChatViewController.swift */; };
+		DD15D1BC2B9BD3BA007E04C1 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15D1BB2B9BD3BA007E04C1 /* StorageManager.swift */; };
 		DD892E442B9A8BCE00666495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD892E432B9A8BCE00666495 /* AppDelegate.swift */; };
 		DD892E462B9A8BCE00666495 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD892E452B9A8BCE00666495 /* SceneDelegate.swift */; };
 		DD892E482B9A8BCE00666495 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD892E472B9A8BCE00666495 /* ConversationsViewController.swift */; };
@@ -31,6 +32,7 @@
 		C3E2093CDD4CB3C43CC2C15C /* Pods_EmApp2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmApp2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62B48F2A8EBDC4B6ED4165E /* Pods-EmApp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmApp2.release.xcconfig"; path = "Target Support Files/Pods-EmApp2/Pods-EmApp2.release.xcconfig"; sourceTree = "<group>"; };
 		DD15D1B72B9BC0A5007E04C1 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		DD15D1BB2B9BD3BA007E04C1 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		DD892E402B9A8BCE00666495 /* EmApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD892E432B9A8BCE00666495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD892E452B9A8BCE00666495 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				DD892E452B9A8BCE00666495 /* SceneDelegate.swift */,
 				DD892E6A2B9AA06500666495 /* Extensions.swift */,
 				DD892E6E2B9B78B200666495 /* DatabaseManager.swift */,
+				DD15D1BB2B9BD3BA007E04C1 /* StorageManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				DD892E462B9A8BCE00666495 /* SceneDelegate.swift in Sources */,
 				DD15D1B82B9BC0A5007E04C1 /* ChatViewController.swift in Sources */,
 				DD892E622B9A8EDF00666495 /* PhotoViewerViewController.swift in Sources */,
+				DD15D1BC2B9BD3BA007E04C1 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
